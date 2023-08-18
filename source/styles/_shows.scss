@@ -24,7 +24,7 @@
         display: flex;
         justify-content: center;
         &__button{
-            color: variaveis.$corTextoSecundario;
+            color: variaveis.$corTextoTabs;
             font-size: 20px;
             border: none;
             padding-bottom: 5px;
@@ -34,7 +34,7 @@
             cursor: pointer;
 
             &--is-active{
-                border-bottom: 5px solid variaveis.$corTextoSecundario;
+                border-bottom: 5px solid variaveis.$corTextoTabs;
             }
         }
     }
